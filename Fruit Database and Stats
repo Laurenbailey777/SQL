@@ -1,0 +1,10 @@
+CREATE TABLE fruit (name TEXT, quantity INTEGER, price INTEGER);
+INSERT INTO fruit VALUES ("apple", 2, 5);
+INSERT INTO  fruit VALUES ("bananas", 4, 1);
+INSERT INTO fruit VALUES ("orange", 3, 2);
+INSERT INTO  fruit VALUES ("strawberries", 50, 1);
+INSERT INTO  fruit VALUES ("kiwi", 2, 7);
+
+SELECT * FROM fruit ORDER BY price;
+SELECT * FROM fruit WHERE quantity > 2 ORDER BY price;
+
